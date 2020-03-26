@@ -1,0 +1,18 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:fs": "node app2.js",
+    "start:env": "EXT=js node --inspect app3.js --color=blue",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
